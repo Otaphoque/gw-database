@@ -1,0 +1,110 @@
+{
+    "ips": [
+        "147.182.194.6"
+    ],
+    "results": [
+        {
+            "resolvedDomains": [
+                {
+                    "ip": "147.182.194.6",
+                    "date": "Jun 6, 2024, 10:58:42 AM",
+                    "addedOn": 20240606
+                }
+            ],
+            "status": "UNKNOWN"
+        }
+    ],
+    "modules": {
+        "DEVICE": [],
+        "STONEWALL": {
+            "decision": "APPROVED",
+            "reason": "NA"
+        },
+        "NEUSTAR": [
+            {
+                "representation": {
+                    "start_ip_int": 2478227968,
+                    "end_ip_int": 2478228223,
+                    "start_ip": "147.182.194.0",
+                    "end_ip": "147.182.194.255"
+                },
+                "connectivity": {
+                    "continent": "north america",
+                    "country": "united states",
+                    "country_code": "us",
+                    "country_cf": 99,
+                    "region": "southwest",
+                    "state": "california",
+                    "state_code": "ca",
+                    "state_cf": 0,
+                    "city": "palo alto",
+                    "city_cf": 80,
+                    "postal_code": "94301",
+                    "postal_code_cf": 2,
+                    "area_code": 650,
+                    "time_zone": -8.0,
+                    "latitude": 37.443,
+                    "longitude": -122.151,
+                    "dma": 807,
+                    "consistency_code": 4,
+                    "radius": 0.0,
+                    "ip_routing_type": "",
+                    "connection_type": "",
+                    "line_speed": ""
+                },
+                "organization": {
+                    "asn": 14061,
+                    "tld": "com",
+                    "sld": "",
+                    "organization": "digitalocean  llc",
+                    "organization_type": "Data Services",
+                    "naics_code": "518210",
+                    "isic_code": "J6311",
+                    "carrier": "digitalocean  llc",
+                    "home": "false"
+                },
+                "proxy": {
+                    "anonymizer_status": "private",
+                    "proxy_type": "service",
+                    "proxy_level": "elite",
+                    "proxy_last_detected": "2022-10-17",
+                    "vpn_service": "digital ocean",
+                    "hosting_facility": "true"
+                }
+            }
+        ],
+        "SPUR": [],
+        "VIRUSTOTAL": {
+            "avResults": {
+                "malicious": 0,
+                "undetected": 39,
+                "suspicious": 0,
+                "harmless": 54,
+                "timeout": 0
+            },
+            "tags": [],
+            "numberOfCommunicatingFiles": "0",
+            "numberOfDownloadedFiles": "0",
+            "numberOfUrls": "2",
+            "lastHttpsCertificate": {
+                "issuer": {
+                    "C": "US",
+                    "CN": "R3",
+                    "O": "Let\u0027s Encrypt"
+                },
+                "validity": {
+                    "not_after": "2022-12-03 14:15:39",
+                    "not_before": "2022-09-04 14:15:40"
+                }
+            },
+            "vtlink": "https://www.virustotal.com/gui/ip-address/147.182.194.6",
+            "asn": 14061,
+            "country": "US",
+            "asOwner": "DIGITALOCEAN-ASN",
+            "lastHttpsCertificateDate": "Sep 04, 2022, 11:23:24 AM",
+            "network": "147.182.128.0/17",
+            "jarm": "15d2ad16d29d29d00015d2ad15d29d67edd16014aa8d87eb613c543d04cbe2"
+        },
+        "PORCUPINE": []
+    }
+}
